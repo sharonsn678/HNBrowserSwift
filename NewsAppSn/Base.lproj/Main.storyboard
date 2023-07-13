@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--News Table View Controller-->
+        <!--Hacker News-->
         <scene sceneID="AWQ-vf-817">
             <objects>
                 <tableViewController id="pxY-z8-JcM" customClass="NewsTableViewController" customModule="NewsAppSn" customModuleProvider="target" sceneMemberID="viewController">
@@ -47,7 +47,7 @@
                             <outlet property="delegate" destination="pxY-z8-JcM" id="f3j-40-eFa"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="19l-MS-ElL"/>
+                    <navigationItem key="navigationItem" title="Hacker News" id="19l-MS-ElL"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CQb-l4-j20" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -76,6 +76,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Mb9-xD-2k3">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <navigationBarAppearance key="standardAppearance">
+                            <textAttributes key="titleTextAttributes"/>
+                        </navigationBarAppearance>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
